@@ -1,14 +1,3 @@
-body {
-  display: grid;
-  grid-template-rows: 5rem repeat(3, 1fr);
-  grid-template-columns: 10rem 1fr 10rem;
-  grid-template-areas:
-    "fill navbar fill"
-    "fill banner fill"
-    "fill about fill"
-    "fill recipe fill";
-}
-
 .banner {
   display: flex;
   margin-bottom: 2rem;
