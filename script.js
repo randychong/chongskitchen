@@ -5,7 +5,7 @@ const getRecipe = async () => {
     const search = document.querySelector(".search-input").value;
     let data = await fetch(`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=${search}`, {
         "headers": {
-            "x-rapidapi-key": "0eb660dc97msh0b6247972cec6a3p1c8277jsn29d8b3adfdd2",
+            "x-rapidapi-key": "{apikey}",
             "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
         }
     })
