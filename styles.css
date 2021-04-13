@@ -23,40 +23,53 @@
   text-decoration: underline;
 }
 
-h1 {
+.search-header {
   position: sticky;
   color: #02a000;
-  font-size: 32px;
+  font-size: 36px;
+}
+
+.header-container {
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 body {
   background: url(https://bit.ly/3mFnfPT) no-repeat fixed;
   background-size: 100%;
   font-family: "Noto Sans", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .search-container {
   position: sticky;
+  display: flex;
+  justify-content: center;
 }
 
 .search-input {
   height: 2rem;
-  padding-left: 5px;
+  padding-left: 10px;
   font-size: 16px;
   outline: none;
   border-radius: 5px;
   border: 1px solid #f9f1f0;
+  margin: 3px;
 }
 
 .search-button {
   background: white;
   border: 1px solid #f9f1f0;
   color: #02a000;
-  height: 2.5rem;
+  height: 2.2rem;
   width: 7rem;
   border-radius: 5px;
   font-size: 20px;
   outline: none;
+  margin: 3px;
 }
 
 .search-button:hover {
