@@ -1,0 +1,16 @@
+.banner {
+  display: grid;
+  place-items: center;
+  background: url(https://bit.ly/3th1j00) no-repeat center;
+  background-position-y: bottom;
+  margin-bottom: 2rem;
+}
+
+.banner-image {
+  height: 30rem;
+}
+
+.about-container {
+  display: grid;
+  place-items: center;
+}
