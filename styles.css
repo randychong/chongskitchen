@@ -9,6 +9,8 @@
   margin: 1rem;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.75);
+  overflow: hidden;
+  border: 1px solid #f9f1f0;
 }
 
 .link {
@@ -21,10 +23,20 @@
   text-decoration: underline;
 }
 
+h1 {
+  position: sticky;
+  color: #02a000;
+  font-size: 32px;
+}
+
 body {
   background: url(https://bit.ly/3mFnfPT) no-repeat fixed;
   background-size: 100%;
-  font-family: "Nunito", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.search-container {
+  position: sticky;
 }
 
 .search-input {
@@ -32,24 +44,23 @@ body {
   padding-left: 5px;
   font-size: 16px;
   outline: none;
-  border-style: solid;
   border-radius: 5px;
+  border: 1px solid #f9f1f0;
 }
 
 .search-button {
-  border-style: solid;
+  background: white;
+  border: 1px solid #f9f1f0;
+  color: #02a000;
   height: 2.5rem;
   width: 7rem;
   border-radius: 5px;
   font-size: 20px;
   outline: none;
-  border-width: 1px;
-  background-color: transparent;
-  transition: 200ms ease;
 }
 
 .search-button:hover {
-  background: rgb(241, 239, 239);
+  cursor: pointer;
 }
 
 @media (max-width: 700px) {
