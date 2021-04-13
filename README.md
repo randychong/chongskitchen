@@ -1,1 +1,1 @@
-Created a recipe search API using HTML, CSS, and JS with Spoonacular's Recipe API.
+Created a recipe search API with HTML, CSS, and JS using Spoonacular's Recipe API.
