@@ -24,7 +24,6 @@
 }
 
 .search-header {
-  position: sticky;
   color: #02a000;
   font-size: 36px;
 }
@@ -45,9 +44,7 @@ body {
 }
 
 .search-container {
-  position: sticky;
   display: flex;
-  justify-content: center;
 }
 
 .search-input {
@@ -138,5 +135,11 @@ body {
 
   .link {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 1314px) {
+  body {
+    background: url(https://bit.ly/3mFnfPT) no-repeat fixed;
   }
 }
