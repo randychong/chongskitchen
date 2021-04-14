@@ -72,6 +72,7 @@ body {
   margin-bottom: 5px;
 }
 
+/*media queries*/
 @media (max-width: 600px) {
   body {
     display: grid;
@@ -79,7 +80,46 @@ body {
   }
 
   .banner {
-    margin-top: 3.5rem;
+    margin-top: 0.5rem;
     height: 10rem;
+  }
+
+  .about-header {
+    font-size: 18px;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .about-container {
+    margin-bottom: 1rem;
+  }
+
+  .recipe-div {
+    margin-top: 1rem;
+  }
+
+  .recipe-header {
+    font-size: 18px;
+  }
+
+  .recipe-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .recipe-link {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer-header {
+    font-size: 18px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 16px;
   }
 }
