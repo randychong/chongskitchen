@@ -1,8 +1,12 @@
+body {
+  padding: 0 10rem 0 10rem;
+  margin: 0;
+}
+
 .banner {
   display: flex;
   margin-bottom: 2rem;
   height: 40rem;
-  /* overflow: hidden; */
 }
 
 .banner-image {
@@ -11,10 +15,16 @@
 }
 
 .about-header {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .about-container {
   display: grid;
   place-items: center;
+}
+
+.recipe-container {
+  display: grid;
+  place-items: center;
+  margin-top: 5rem;
 }
