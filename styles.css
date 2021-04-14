@@ -23,8 +23,14 @@ body {
   place-items: center;
 }
 
-.recipe-container {
+.recipe-div {
   display: grid;
   place-items: center;
   margin-top: 5rem;
+}
+
+.recipe-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
 }
