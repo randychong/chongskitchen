@@ -42,5 +42,13 @@ body {
 .recipe-card {
   display: grid;
   place-items: center;
-  margin: 1rem;
+  margin: 2rem;
+  margin-bottom: 2rem;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-top: 1rem;
 }
