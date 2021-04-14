@@ -32,19 +32,23 @@ body {
   text-align: center;
 }
 
+.recipe-header {
+  margin-bottom: 1rem;
+}
+
 .recipe-image {
   height: 12rem;
   width: 36rem;
   margin-bottom: 1rem;
 }
 
-.recipe-header {
+.recipe-name {
   text-decoration: none;
   color: black;
   font-size: 18px;
 }
 
-.recipe-header:hover {
+.recipe-name:hover {
   color: black;
 }
 
