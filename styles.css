@@ -73,15 +73,17 @@ body {
 }
 
 /*media queries*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   body {
     display: grid;
     place-items: center;
+    width: 100%;
   }
 
   .banner {
-    margin-top: 0.5rem;
+    margin-top: 4.5rem;
     height: 10rem;
+    width: 100%;
   }
 
   .about-header {
