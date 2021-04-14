@@ -9,9 +9,5 @@
   margin-bottom: 5rem;
   display: grid;
   place-items: center;
-}
-.chef-image {
-  height: 30rem;
   width: 30rem;
-  margin-bottom: 1rem;
 }
