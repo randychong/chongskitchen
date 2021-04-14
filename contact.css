@@ -43,6 +43,15 @@ body {
 }
 
 .button {
+  border-style: solid;
+  height: 3rem;
+  width: 10rem;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  border-width: 1px;
+  background: white;
+  color: #02a000;
   margin-bottom: 3rem;
 }
 
