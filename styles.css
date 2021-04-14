@@ -33,6 +33,7 @@ body {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 2rem;
 }
 
 .recipe-image {
@@ -51,6 +52,10 @@ body {
   color: black;
   font-size: 20px;
   margin-top: 1rem;
+}
+
+.recipe-link:hover {
+  color: black;
 }
 
 .footer {
