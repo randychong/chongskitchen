@@ -20,3 +20,7 @@ body {
   display: grid;
   place-items: center;
 }
+
+.form-item {
+  outline: none;
+}
