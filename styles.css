@@ -131,7 +131,5 @@ body {
   }
 }
 
-@media (max-width: 823px) {
-  .banner-image {
-  }
+@media (max-width: 794px) {
 }
