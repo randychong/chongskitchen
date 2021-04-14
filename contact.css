@@ -84,3 +84,9 @@ body {
     place-items: center;
   }
 }
+
+@media (max-width: 600px) {
+  .banner-image {
+    height: 20rem;
+  }
+}
