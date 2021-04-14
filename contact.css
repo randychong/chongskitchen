@@ -23,9 +23,15 @@ body {
 
 .form-item {
   outline: none;
+  width: 20rem;
+  margin-bottom: 1rem;
 }
 
 #message {
   height: 10rem;
   width: 20rem;
+}
+
+.contact-form {
+  margin-bottom: 2rem;
 }
