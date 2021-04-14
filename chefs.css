@@ -2,11 +2,18 @@ body {
   padding: 0 10rem 0 10rem;
 }
 
+.main-header {
+  display: grid;
+  place-items: center;
+  margin-top: 1rem;
+}
+
 .main-container {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 2rem;
+  overflow: hidden;
 }
 
 .chef-container {
