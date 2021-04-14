@@ -31,11 +31,11 @@ body {
   border-radius: 5px;
   border: black 1px solid;
   margin-bottom: 1rem;
+  padding: 0 0.5rem 0 0.5rem;
 }
 
-#message {
+#message-box {
   height: 10rem;
-  width: 20rem;
 }
 
 .contact-form {
