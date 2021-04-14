@@ -1,3 +1,7 @@
+body {
+  padding: 0 10rem 0 10rem;
+}
+
 .main-container {
   display: grid;
   place-items: center;
@@ -27,4 +31,18 @@
   height: 12rem;
   width: 36rem;
   margin-bottom: 1rem;
+}
+
+.footer {
+  border-top: black solid 1px;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.footer-header {
+  margin-bottom: 5px;
+}
+
+.copyright {
+  margin-bottom: 5px;
 }
