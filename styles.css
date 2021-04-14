@@ -7,6 +7,7 @@ body {
   display: flex;
   margin-bottom: 2rem;
   height: 40rem;
+  width: 100%;
 }
 
 .banner-image {
@@ -16,6 +17,8 @@ body {
 
 .about-header {
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: black 1px solid;
 }
 
 .about-container {
@@ -27,6 +30,12 @@ body {
   display: grid;
   place-items: center;
   margin-top: 5rem;
+  border-bottom: black 1px solid;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .recipe-container {
