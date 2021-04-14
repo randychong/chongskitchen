@@ -68,3 +68,19 @@ body {
 .copyright {
   margin-bottom: 5px;
 }
+
+/*media queries*/
+@media (max-width: 1300px) {
+  body {
+    padding: 0;
+  }
+
+  .banner-image {
+    height: 30rem;
+  }
+
+  .footer {
+    display: grid;
+    place-items: center;
+  }
+}
