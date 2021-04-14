@@ -63,3 +63,11 @@ body {
   width: 100%;
   padding-top: 1rem;
 }
+
+.footer-header {
+  margin-bottom: 5px;
+}
+
+.copyright {
+  margin-bottom: 5px;
+}
