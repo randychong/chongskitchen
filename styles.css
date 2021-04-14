@@ -136,3 +136,9 @@ body {
     height: 20rem;
   }
 }
+
+@media (max-width: 480px) {
+  .recipe-div {
+    width: 50%;
+  }
+}
