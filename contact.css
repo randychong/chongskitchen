@@ -21,9 +21,15 @@ body {
   place-items: center;
 }
 
+.header-info {
+  margin-bottom: 2rem;
+}
+
 .form-item {
   outline: none;
   width: 20rem;
+  border-radius: 5px;
+  border: black 1px solid;
   margin-bottom: 1rem;
 }
 
