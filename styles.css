@@ -12,6 +12,9 @@ body {
 .banner-image {
   width: 100%;
   align-self: flex-end;
+  height: 33rem;
+  object-fit: cover;
+  object-position: 50% 80%;
 }
 
 .about-header {
@@ -119,5 +122,16 @@ body {
   .footer {
     text-align: center;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 1128px) {
+  body {
+    padding: 0;
+  }
+}
+
+@media (max-width: 823px) {
+  .banner-image {
   }
 }
