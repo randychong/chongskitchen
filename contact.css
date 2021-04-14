@@ -1,3 +1,17 @@
 body {
   padding: 0 10rem 0 10rem;
 }
+
+.banner {
+  display: flex;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.banner-image {
+  width: 100%;
+  align-self: flex-end;
+  height: 33rem;
+  object-fit: cover;
+  object-position: 50% 80%;
+}
