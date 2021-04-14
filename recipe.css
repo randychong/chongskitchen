@@ -33,7 +33,7 @@
 body {
   background: url(https://bit.ly/3mFnfPT) no-repeat center fixed;
   background-size: 100%;
-  padding: 0;
+  padding: 0 10rem 0 10rem;
 }
 
 .search-container {
@@ -137,5 +137,11 @@ body {
 @media (max-width: 1300px) {
   body {
     background: url(https://bit.ly/3mFnfPT) no-repeat center fixed;
+  }
+}
+
+@media (max-width: 1320px) {
+  body {
+    padding: 0;
   }
 }
