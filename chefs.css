@@ -6,6 +6,7 @@
 }
 
 .chef-container {
+  margin: 1rem;
   margin-bottom: 5rem;
   display: grid;
   place-items: center;
@@ -14,4 +15,14 @@
 
 .chef-image {
   margin-bottom: 1rem;
+}
+
+.about-chef {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.recipe-image {
+  height: 10rem;
+  width: 30rem;
 }
