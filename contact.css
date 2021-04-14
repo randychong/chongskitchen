@@ -39,7 +39,11 @@ body {
 }
 
 .contact-form {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-bottom: 3rem;
 }
 
 .footer {
