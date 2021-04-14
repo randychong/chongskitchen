@@ -1,4 +1,17 @@
+.main-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2rem;
+}
+
+.chef-container {
+  margin-bottom: 5rem;
+  display: grid;
+  place-items: center;
+}
 .chef-image {
   height: 30rem;
   width: 30rem;
+  margin-bottom: 1rem;
 }
