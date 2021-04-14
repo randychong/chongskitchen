@@ -38,6 +38,15 @@ body {
   margin-bottom: 1rem;
 }
 
+.recipe-header {
+  text-decoration: none;
+  color: black;
+}
+
+.recipe-header:hover {
+  color: black;
+}
+
 .footer {
   border-top: black solid 1px;
   width: 100%;
