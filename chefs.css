@@ -16,11 +16,11 @@ body {
 }
 
 .chef-container {
-  margin: 1rem;
   margin-bottom: 8rem;
   display: grid;
   place-items: center;
   width: 40rem;
+  padding: 1rem;
 }
 
 .chef-image {
@@ -70,4 +70,31 @@ body {
 
 .copyright {
   margin-bottom: 5px;
+}
+
+/*media queries*/
+
+@media (max-width: 1300px) {
+  body {
+    padding: 0;
+  }
+
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+
+  .chef-container {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .about-chef {
+    width: 35rem;
+  }
+
+  .footer {
+    display: grid;
+    place-items: center;
+  }
 }
