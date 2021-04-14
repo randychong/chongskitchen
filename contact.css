@@ -24,3 +24,8 @@ body {
 .form-item {
   outline: none;
 }
+
+#message {
+  height: 10rem;
+  width: 20rem;
+}
