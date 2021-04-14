@@ -41,3 +41,17 @@ body {
 .contact-form {
   margin-bottom: 2rem;
 }
+
+.footer {
+  border-top: black solid 1px;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.footer-header {
+  margin-bottom: 5px;
+}
+
+.copyright {
+  margin-bottom: 5px;
+}
