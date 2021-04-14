@@ -13,7 +13,6 @@ body {
   place-items: center;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 2rem;
-  overflow: hidden;
 }
 
 .chef-container {
@@ -21,7 +20,7 @@ body {
   margin-bottom: 8rem;
   display: grid;
   place-items: center;
-  width: 30rem;
+  width: 40rem;
 }
 
 .chef-image {
