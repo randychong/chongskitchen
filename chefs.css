@@ -74,7 +74,7 @@ body {
 
 /*media queries*/
 
-@media (max-width: 1300px) {
+@media (max-width: 1600px) {
   body {
     padding: 0;
   }
