@@ -20,7 +20,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  color: black;
 }
 
 .header-container {
