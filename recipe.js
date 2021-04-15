@@ -2,8 +2,8 @@ const recipeContainer = document.querySelector(".recipe-container");
 const searchButton = document.querySelector(".search-button");
 const input = document.getElementById("myInput")
 
-const getRecipe = async () => {
-    const search = document.querySelector(".search-input").value;
+const getRecipe = async (recipe) => {
+    const search = document.querySelector(".search-input").value ? document.querySelector(".search-input").value : recipe
     let data = await fetch(`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=${search}`, {
         "headers": {
             "x-rapidapi-key": "0eb660dc97msh0b6247972cec6a3p1c8277jsn29d8b3adfdd2",
@@ -54,3 +54,5 @@ input.addEventListener("keyup", function(event) {
         document.getElementById("myBtn").click();
     }
 });
+
+getRecipe("sushi");
