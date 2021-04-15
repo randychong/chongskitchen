@@ -90,3 +90,10 @@ body {
     height: 20rem;
   }
 }
+
+@media (max-width: 480px) {
+  .header-info {
+    width: 80%;
+    text-align: center;
+  }
+}
