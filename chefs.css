@@ -80,6 +80,7 @@ body {
   }
 
   .main-container {
+    display: grid;
     grid-template-columns: 1fr;
   }
 
@@ -105,11 +106,6 @@ body {
 }
 
 @media (max-width: 612px) {
-  body {
-    display: grid;
-    place-items: center;
-  }
-
   .chef-name {
     font-size: 24px;
   }
@@ -129,5 +125,28 @@ body {
 
   .footer {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 393px) {
+  .chef-name {
+    font-size: 18px;
+  }
+
+  .about-chef {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .recipe-header {
+    font-size: 18px;
+  }
+
+  .recipe-name {
+    font-size: 16px;
+  }
+
+  .footer {
+    font-size: 16px;
   }
 }
