@@ -56,6 +56,8 @@ body {
 }
 
 .footer {
+  display: grid;
+  place-items: center;
   border-top: black solid 1px;
   width: 100%;
   padding-top: 1rem;
@@ -77,11 +79,6 @@ body {
 
   .banner-image {
     height: 30rem;
-  }
-
-  .footer {
-    display: grid;
-    place-items: center;
   }
 }
 
