@@ -93,6 +93,11 @@ body {
     width: 35rem;
   }
 
+  .recipe-name {
+    padding: 1rem;
+    border-bottom: black 1px solid;
+  }
+
   .footer {
     display: grid;
     place-items: center;
