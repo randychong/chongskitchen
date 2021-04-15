@@ -126,7 +126,7 @@ body {
   }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 611px) {
   body {
     padding: 0;
   }
