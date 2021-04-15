@@ -2,6 +2,8 @@ Created a recipe website API with HTML, CSS, and JS using Spoonacular's Recipe A
 
 The website can be accessed at: https://randychong.github.io/chongskitchen/
 
+Article about the creation of Chong's Kitchen: https://medium.com/@randychong27/creating-chongs-kitchen-b9c1eb875623
+
 Homepage - top
 ![chongskitchen-homepage-top](https://user-images.githubusercontent.com/80119466/114780678-56d07500-9d3d-11eb-9006-0ab0da796e5e.png)
 
