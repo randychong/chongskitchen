@@ -71,6 +71,8 @@ body {
 }
 
 .footer {
+  display: grid;
+  place-items: center;
   border-top: black solid 1px;
   width: 100%;
   padding-top: 1rem;
@@ -121,7 +123,6 @@ body {
   }
 
   .footer {
-    text-align: center;
     font-size: 16px;
   }
 }
