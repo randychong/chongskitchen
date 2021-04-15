@@ -24,11 +24,14 @@ body {
 }
 
 .chef-image {
+  height: 25.5rem;
+  width: 35rem;
   margin-bottom: 1rem;
 }
 
 .chef-image-gordon {
   height: 25.5rem;
+  width: 35rem;
   margin-bottom: 1rem;
 }
 
