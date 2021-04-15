@@ -1,4 +1,4 @@
-Created a recipe website API with HTML, CSS, and JS using Spoonacular's Recipe API.
+Created a recipe website API with HTML, CSS, and JS using Spoonacular's Recipe API. Media queries were also incorporated to make website mobile-friendly.
 
 The website can be accessed at: https://randychong.github.io/chongskitchen/
 
@@ -8,7 +8,7 @@ Homepage - top
 Homepage - bottom
 ![chongskitchen-homepage-bottom](https://user-images.githubusercontent.com/80119466/114780700-5cc65600-9d3d-11eb-9d68-5fdcd13d6e61.png)
 
-Features introduction of the website and top recipes from the website.
+Features introduction to the website and top recipes. Users are able to click on the recipe names to be redirected to each individual recipe's page.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ Chefs Page - top
 Chefs Page - bottom
 ![chongskitchen-chefspage-bottom](https://user-images.githubusercontent.com/80119466/114785937-ffcd9e80-9d42-11eb-9a1b-379f55b4d039.png)
 
-Features the chefs of Chong's Kitchen and their most popular recipes.
+Features the chefs of Chong's Kitchen and their most popular recipes which can be accessed by clicking on the recipe names.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
