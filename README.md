@@ -8,7 +8,7 @@ Homepage - top
 Homepage - bottom
 ![chongskitchen-homepage-bottom](https://user-images.githubusercontent.com/80119466/114780700-5cc65600-9d3d-11eb-9d68-5fdcd13d6e61.png)
 
-Features introduction to the website and top recipes. Users are able to click on the recipe names to be redirected to each individual recipe's page.
+Features introduction to the website and top recipes. Users are able to click on the recipe image or name to be redirected to each individual recipe's page.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@ Chefs Page - top
 Chefs Page - bottom
 ![chongskitchen-chefspage-bottom](https://user-images.githubusercontent.com/80119466/114785937-ffcd9e80-9d42-11eb-9a1b-379f55b4d039.png)
 
-Features the chefs of Chong's Kitchen and their most popular recipes which can be accessed by clicking on the recipe names.
+Features the chefs of Chong's Kitchen and their most popular recipes which can be accessed by clicking on the recipe image or name.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
