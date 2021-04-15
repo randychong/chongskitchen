@@ -6,7 +6,7 @@ Homepage - top
 ![chongskitchen-homepage-top](https://user-images.githubusercontent.com/80119466/114780678-56d07500-9d3d-11eb-9006-0ab0da796e5e.png)
 
 Homepage - bottom
-![chongskitchen-homepage-bottom](https://user-images.githubusercontent.com/80119466/114780700-5cc65600-9d3d-11eb-9d68-5fdcd13d6e61.png)
+![chongsktichen-homepage-bottom-1](https://user-images.githubusercontent.com/80119466/114915878-c9972a00-9de9-11eb-9f7a-3c1e2856df92.png)
 
 Features introduction to the website and top recipes. Users are able to click on the recipe image or name to be redirected to each individual recipe's page.
 
@@ -36,6 +36,6 @@ Contacts Page - top
 ![chongskitchen-contactpage-top](https://user-images.githubusercontent.com/80119466/114785944-022ff880-9d43-11eb-9003-df54da8a7644.png)
 
 Contacts Page - bottom
-![chongskitchen-contactpage-bottom](https://user-images.githubusercontent.com/80119466/114785966-05c37f80-9d43-11eb-82ec-11a96145ffb7.png)
+![chongskitchen-contactpage-bottom-1](https://user-images.githubusercontent.com/80119466/114915907-d287fb80-9de9-11eb-9469-e44c7fead86b.png)
 
 Features a contact page for users to reach out to Chong's Kitchen.
