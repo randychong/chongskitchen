@@ -98,3 +98,31 @@ body {
     place-items: center;
   }
 }
+
+@media (max-width: 612px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+
+  .chef-name {
+    font-size: 24px;
+  }
+
+  .about-chef {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .recipe-header {
+    font-size: 24px;
+  }
+
+  .recipe-name {
+    font-size: 24px;
+  }
+
+  .footer {
+    font-size: 18px;
+  }
+}
