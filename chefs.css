@@ -178,4 +178,15 @@ body {
 }
 
 @media (max-width: 480px) {
+  .chef-image-gordon {
+    height: 14rem;
+    width: 20rem;
+  }
+
+  .chef-image {
+    width: 20rem;
+  }
+  .recipe-image {
+    width: 20rem;
+  }
 }
