@@ -1,5 +1,6 @@
 const recipeContainer = document.querySelector(".recipe-container");
 const searchButton = document.querySelector(".search-button");
+const input = document.getElementById("myInput")
 
 const getRecipe = async () => {
     const search = document.querySelector(".search-input").value;
@@ -39,5 +40,12 @@ searchButton.addEventListener("click", ()=> {
         getRecipe();
     }   else {
         getRecipe();
+    }
+});
+
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("myBtn").click();
     }
 });
