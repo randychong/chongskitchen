@@ -1,18 +1,20 @@
 const recipeContainer = document.querySelector(".recipe-container");
 const searchButton = document.querySelector(".search-button");
-const input = document.getElementById("myInput")
+const input = document.getElementById("myInput");
+
+import {api} from "./api.js"
 
 const getRecipe = async (recipe) => {
     const search = document.querySelector(".search-input").value ? document.querySelector(".search-input").value : recipe
     let data = await fetch(`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=${search}`, {
         "headers": {
-            "x-rapidapi-key": "0eb660dc97msh0b6247972cec6a3p1c8277jsn29d8b3adfdd2",
+            "x-rapidapi-key": `${api}`,
             "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
         }
     })
     let json = await data.json();
-    counter = 0;
-    for (result of json.results) {
+    let counter = 0;
+    for (let result of json.results) {
 
         const img = document.createElement("img");
         img.src = `https://spoonacular.com/recipeImages/${json.results[`${counter}`].id}-480x360.jpg`;
